@@ -1,0 +1,118 @@
+:root{
+    --border: solid 1px #ccc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 217, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+header{
+    background-color: darkslateblue;
+    padding: 10px;
+    color: white;
+}
+
+main{
+    width: 600px;
+    margin: 100px auto;
+
+    
+}
+
+button{
+    border-radius: 3px;
+    outline: none;
+    
+    border: none;
+    
+}
+
+#display{
+    border: var(--border);
+    padding: 40px;
+    text-align: right;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    background-color: rgb(25, 57, 87);
+    color: cyan;
+}
+
+#editor{
+    border: var(--border);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 80% 19%;
+    column-gap: 5px;
+
+    background-color: white;
+    
+}
+
+#editor #input-container{
+    display: grid;
+    grid-template-columns: 55% 25% 20%;
+    border: var(--border);
+
+}
+
+
+#editor input, #editor select{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#editor button{
+    justify-items: right;
+    background-color: tomato;
+    color: white;
+}
+
+#items{
+    border: var(--border);
+    background-color: white;
+}
+
+#items .item{
+    display: grid;
+    grid-template-columns: 20% 69% 5%;
+    align-items: center;
+    padding: 10px;
+}
+
+#items .item:hover{
+    background-color: rgb(236, 255, 198);
+}
+#items .item:hover .currency{
+    color: rgb(110, 131, 70);
+}
+#items .item:hover button{
+    opacity: 1;
+}
+#items .item button{
+    opacity: 0;
+    padding: 7px 5px;
+    background-color: transparent;
+    color: #222;
+}
+
+#items .item button:hover{
+    background-color: tomato;
+    color: white;
+    
+}
+
+#items .item .currency{
+    color: #ccc;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,28 @@
+{
+    "items":[
+        {
+            "id": 0,
+            "title": "Transporte al aeropuerto",
+            "cost": {
+                "number": 234,
+                "currency": "MXN"
+            }
+        },
+        {
+            "id": 1,
+            "title": "Desayuno en el aeropuerto",
+            "cost": {
+                "number": 23,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Boleto de avion",
+            "cost": {
+                "number": 678,
+                "currency": "USD"
+            }
+        }
+    ]
+}
